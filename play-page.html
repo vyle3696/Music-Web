@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/play-page.css">
+	 <link rel="stylesheet" href="uikit/css/uikit.min.css" />
+    <script src="uikit/js/jquery.min.js"></script>
+
+    <script src="uikit/js/uikit.min.js"></script>
+    <script src="uikit/js/uikit-icons.min.js"></script>
+
+    <script src="js/controller.js"></script>
+    <script src="js/responsive.js"></script>
+
+	<title></title>
+</head>
+
+<body style="text-align: center; position: relative;">
+    <div class="lp-vertical-nav">
+        <div id="btn-close-open" >
+        </div>
+        <div id="lp-vertical-nav-content">
+            <div>
+                <div id="nav-home" class="nav-box" style="">
+                    <img src ="images/play-page/home-xxl1.png">
+                    <p>Trang chủ</p>
+                </div>
+                <div id="nav-topic" class="nav-box">
+                    <img src="images/play-page/topic1.png">
+                    <p>Chủ đề</p>
+                </div>
+                <div id="nav-album" class="nav-box">
+                    <img src="images/play-page/album1.png">
+                    <p>Album</p>
+                </div>
+                <div id="nav-video" class="nav-box">
+                    <img src="images/play-page/video1.png">
+                    <p>Video</p>
+                </div>
+                <div id="nav-artist" class="nav-box">
+                    <img src="images/play-page/artist1.png">
+                    <p>Nghệ sĩ</p>
+                </div>
+                <div id="nav-contact" class="nav-box">
+                    <img src="images/play-page/contacts1.png">
+                    <p>Liên hệ</p>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+        <nav class="uk-navbar-container uk-navbar" uk-navbar="" style="position: relative;z-index: 980;height: 50px;">
+
+            <!-- Phần căn giữa -->
+            <div class="uk-navbar-center">
+                <!-- Logo-->
+                <img src="images/logo4.png" width="140px" style="margin-right : 6% ">
+                <!-- Form tìm kiếm-->
+                <div class="uk-inline" style="width: 100%">
+                    <a class="uk-form-icon" href="#" uk-icon="icon: search"></a>
+                    <input class="uk-input" type="text" style="height: 40px; width: 300px;">
+                </div>
+                <!-- <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="#" style ="text-transform: none !important">MP3</a></li>
+                    <li class="uk-active"><a href="#" style ="text-transform: none !important">NEWS</a></li>
+                    <li class="uk-active"><a href="#" style ="text-transform: none !important">TV</a></li>
+                </ul> -->
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active" style="width: max-content">
+                        <img src="images/avatar.png" height="30px" width="30px" style="margin-left: 30px; display: inline-block;">
+                        <a style="font-size: 20px; font-weight: 500; text-transform: none; color: #ff3399; display: inline-block;" href="#">Hồ Sơ</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <a href="#" style ="text-transform: none !important">
+                                    <li class="uk-nav-header text-link">Trang cá nhân</li>
+                                </a>
+                                <li><a href="#" class="text-link">Danh sách yêu thích</a></li>
+                                <li><a href="#" class="text-link">Theo dõi</a></li>
+                                <li><a href="#" class="text-link">Nhạc Upload</a></li>
+                                <li class="uk-active"><a href="#" class="text-link">Nâng cấp VIP</a></li>
+                                <li class="uk-nav-divider text-link"></li>
+                                <li><a href="#" class="text-link">Thoát</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div/>
+        </nav>
+    </div>
+	<div id="home-content" style="margin-top: 10px; display: inline-block;">
+		<div id="left-column" class="main-content-left" style="text-align: left;" >
+			<h4><span style="/*font-family:Helvetica*/ color: #ff3399; margin-left:10px">TIẾP THEO</span></h4>
+			<div class="music-content sss" style=" background-color: #383838; position: relative;">
+				<div class="mc-top sssa ls-scroll-bar" style="height: 70%">
+					<div class="mc-left">
+						<p>
+							Bài hát: Vẫn<br/>
+							Sáng tác: Tiên Cookie<br/>
+							Thể loại: balab
+						</p>
+						<img style="width: 100px; height: 100px; border-radius: 50%" src="images/play-page/Y6eOVqc8J8C8Kg8ht3xF596333f6b426f.jpg">
+						<p>BÍCH PHƯƠNG</p>
+					</div>
+					<div class="mc-right">
+						<img src="images/play-page/up-quote.png">
+						<div class="ls-scroll-bar">
+							Bài hát: Cớ Sao Giờ Lại Chia Xa - Bích Phương<br/>
+							Lần mà người bối rối nói rằng yêu em thôi<br/>
+							Cũng là lần đầu, mà em thấy mình nhỏ bé..<br/>
+							Lần mà người đã đứng chờ em dưới cơn mưa đêm<br/>
+							Làm tim em rung lên, tưởng rằng anh sẽ mãi yêu em<br/>
+
+							Mình đã hứa bên nhau cơ mà,<br/>
+							Cớ sao giờ lại chia xa?<br/>
+							[Verse] <br/>
+							Lần mà người bối rối nói rằng yêu em thôi <br/>
+							Cũng là lần đầu, mà em thấy mình nhỏ bé.. <br/>
+							Lần mà người đã đứng chờ em dưới cơn mưa đêm <br/>
+							Làm tim em rung lên, tưởng rằng anh sẽ mãi yêu em <br/>
+
+							[Chorus] <br/>
+							Mình đã hứa bên nhau cơ mà, <br/>
+							Cớ sao giờ lại chia xa? 
+							Có hay rằng trong đời em, khoảnh khắc tuổi <br/>xuân đẹp nhất là ngày bên anh? <br/>
+							Người là cánh chim bay ngang trời <br/>
+							Để em nơi đây cứ mãi <br/>
+							Ngước lên trời cao thật cao ước được là gió.<br/> 
+						</div>
+						<img src="images/play-page/down-quote.png">
+					</div>
+				</div>
+				
+				<div class="mc-bottom sssa">
+					<div id="play-status" style="position: relative;">
+						<span id="ls-cur">00:40</span>
+						<span id="ls-end">03:57</span>
+						<img src="images/play-page/pre-btn.png" style="width: 20px;">
+						<img src="images/play-page/play-btn.png" style="width: 20px;">
+						<img src="images/play-page/next-btn.png" style="width: 20px;">
+						<progress class="lp-progress-bar" name="mp3-status" value="30" max="100">
+					</div>
+				</div>
+
+				<div style="margin:20px; text-align: left; display: inline-block; float: left;">
+					<div class="image-btn sssa" >
+						<img src="images/downloading.png">
+						<p>Tải về</p>
+					</div>
+					<div class="image-btn sssa" >
+						<img src="images/share.png">
+						<p>Chia sẻ</p>
+					</div>
+					<div class="image-btn sssa" >
+						<img src="images/star.png">
+						<p>Thích</p>
+					</div>
+				</div>
+
+				<div style="margin:20px; text-align: right; display: inline-block; float: right;">
+					<div class="image-btn sssa" style="background-color: transparent; border: none">
+						<img src="images/listen.png">
+						<p style="font-size: 16px">900.824.243</p>
+					</div>
+				</div>
+				
+			</div>
+			<div class="ls-comment" style="width: 682px; text-align: left;">
+				<h3 style="margin-bottom: 5px; margin-top: 10px">BÌNH LUẬN (1000)</h3>
+				<form class="frm-comment">
+			        <img class="fn-useravatar" src="images/play-page/grid-image-2.jpg">
+			        <div class="wrap-comment">
+			            <textarea name="content" rows="3" style="width: 100%;"></textarea>        
+			            <button name="btnSubmit" type="submit" class="common-btn btn-comment" style="">Bình luận</button>
+			            <div style="clear: all"></div>
+			        </div>
+			    </form>
+				<div class="comment-item" style="">
+					<img src="images/play-page/grid-image-1.jpg">
+					<div class="item-content" style="color: black">
+						<p class="item-name">vyle</p>
+						<p class="item-body">Sky chúc cho chị Bích Phương ngày càng thành công hơn nữa trong sự nghiệp ạ! Bài mới của chị hay lắm ạ, chị ra nhiều bài hay nữa nha chị! Yêu thương! <3﻿</p>
+					</div>
+					<span class="time-comment">18:00 09/10/2017</span>
+				</div>
+				<div class="comment-item" style="">
+					<img src="images/play-page/grid-image-2.jpg">
+					<div class="item-content" style="color: black">
+						<p class="item-name">Hồng Hạnh</p>
+						<p class="item-body">bài này hay mà chị lại hát rất cảm động nghe muốn khóc</p>
+					</div>
+					<span class="time-comment">18:00 09/10/2017</span>
+				</div>
+				<div class="comment-item" style="">
+					<img src="images/play-page/grid-image-3.jpg">
+					<div class="item-content" style="color: black">
+						<p class="item-name">Mèo</p>
+						<p class="item-body">^^nghe buồn nhưng cảm giác vẫn trong trẻo thế nào ấy Êm thấy bài này dễ cảm hơn bản hàn</p>
+					</div>
+					<span class="time-comment">18:00 09/10/2017</span>
+				</div>
+				<div class="comment-item" style="">
+					<img src="images/play-page/grid-image-1.jpg">
+					<div class="item-content" style="color: black">
+						<p class="item-name">vyle</p>
+						<p class="item-body">Sky chúc cho chị Bích Phương ngày càng thành công hơn nữa trong sự nghiệp ạ! Bài mới của chị hay lắm ạ, chị ra nhiều bài hay nữa nha chị! Yêu thương! <3﻿</p>
+					</div>
+					<span class="time-comment">18:00 09/10/2017</span>
+				</div>
+				<div class="comment-item" style="">
+					<img src="images/play-page/grid-image-2.jpg">
+					<div class="item-content" style="color: black">
+						<p class="item-name">Hồng Hạnh</p>
+						<p class="item-body">bài này hay mà chị lại hát rất cảm động nghe muốn khóc</p>
+					</div>
+					<span class="time-comment">18:00 09/10/2017</span>
+				</div>
+				<div class="comment-item" style="">
+					<img src="images/play-page/grid-image-3.jpg">
+					<div class="item-content" style="color: black">
+						<p class="item-name">vyle</p>
+						<p class="item-body">Sky chúc cho chị Bích Phương ngày càng thành công hơn nữa trong sự nghiệp ạ! Bài mới của chị hay lắm ạ, chị ra nhiều bài hay nữa nha chị! Yêu thương! <3﻿</p>
+					</div>
+					<span class="time-comment">18:00 09/10/2017</span>
+				</div>
+				
+				<button class="common-btn btn-loadmore" style="">
+					Xem thêm
+				</button>
+			</div>
+		</div>
+			<div id="right-column" style="vertical-align: top; text-align: initial;">
+	            <!-- Card chủ đề-->           
+
+	            <!--BXH bài hát-->
+	            <div id="right-col-row3" style="margin-bottom: 20px">
+	               <h4><span style="/*font-family:Helvetica*/ color: #ff3399; margin-left:10px">TIẾP THEO</span></h4>
+	                <div class="uk-card-header" style="padding: 0;">
+	                    <div class="ls-item uk-grid-small uk-flex-middle" uk-grid>
+	                        <div class="uk-width-auto">
+	                            <h5>01</h5>
+	                        </div>
+	                        <div class="uk-width-expand">
+	                            <h4 class="uk-card-title uk-margin-remove-bottom" style="font-size:18px">Em Gái Mưa</h4>
+	                            <p class="uk-text-meta uk-margin-remove-top">Hương Tràm</p>
+	                        </div>
+	                        <div class="ls-icon" style="opacity: 0.6">
+								<img src="images/play-page/star-icon1.png">
+								<img src="images/play-page/downloading1.png">
+								<img src="images/play-page/share1.png">
+							</div>
+	                    </div>
+	                    <div class="ls-item uk-grid-small uk-flex-middle" uk-grid>
+	                        <div class="uk-width-auto">
+	                            <h5>02</h5>
+	                        </div>
+	                        <div class="uk-width-expand">
+	                            <h4 class="uk-card-title uk-margin-remove-bottom" style="font-size:18px">Túy Âm</h4>
+	                            <p class="uk-text-meta uk-margin-remove-top">Xesi, Masew, Nhật Nguyễn</p>
+	                        </div>
+	                        <div class="ls-icon" style="opacity: 0.6">
+								<img src="images/play-page/star-icon1.png">
+								<img src="images/play-page/downloading1.png">
+								<img src="images/play-page/share1.png">
+							</div>
+	                    </div>
+	                    <div class="ls-item uk-grid-small uk-flex-middle" uk-grid>
+	                        <div class="uk-width-auto">
+	                            <h5>03</h5>
+	                        </div>
+	                        <div class="uk-width-expand">
+	                            <h4 class="uk-card-title uk-margin-remove-bottom" style="font-size:18px">Em Gái Mưa</h4>
+	                            <p class="uk-text-meta uk-margin-remove-top">Hương Tràm</p>
+	                        </div>
+	                        <div class="ls-icon" style="opacity: 0.6">
+								<img src="images/play-page/star-icon1.png">
+								<img src="images/play-page/downloading1.png">
+								<img src="images/play-page/share1.png">
+							</div>
+	                    </div>
+	                    <div class="ls-item uk-grid-small uk-flex-middle" uk-grid>
+	                        <div class="uk-width-auto">
+	                            <h5>04</h5>
+	                        </div>
+	                        <div class="uk-width-expand">
+	                            <h4 class="uk-card-title uk-margin-remove-bottom" style="font-size:18px">Túy Âm</h4>
+	                            <p class="uk-text-meta uk-margin-remove-top">Xesi, Masew, Nhật Nguyễn</p>
+	                        </div>
+	                        <div class="ls-icon" style="opacity: 0.6">
+								<img src="images/play-page/star-icon1.png">
+								<img src="images/play-page/downloading1.png">
+								<img src="images/play-page/share1.png">
+							</div>
+	                    </div>
+	                    <div class="ls-item uk-grid-small uk-flex-middle" uk-grid>
+	                        <div class="uk-width-auto">
+	                            <h5>05</h5>
+	                        </div>
+	                        <div class="uk-width-expand">
+	                            <h4 class="uk-card-title uk-margin-remove-bottom" style="font-size:18px">Em Gái Mưa</h4>
+	                            <p class="uk-text-meta uk-margin-remove-top">Hương Tràm</p>
+	                        </div>
+	                        <div class="ls-icon" style="opacity: 0.6">
+								<img src="images/play-page/star-icon1.png">
+								<img src="images/play-page/downloading1.png">
+								<img src="images/play-page/share1.png">
+							</div>
+	                    </div>
+	                    <div class="ls-item uk-grid-small uk-flex-middle" uk-grid>
+	                        <div class="uk-width-auto">
+	                            <h5>06</h5>
+	                        </div>
+	                        <div class="uk-width-expand">
+	                            <h4 class="uk-card-title uk-margin-remove-bottom" style="font-size:18px">Túy Âm</h4>
+	                            <p class="uk-text-meta uk-margin-remove-top">Xesi, Masew, Nhật Nguyễn</p>
+	                        </div>
+	                        <div class="ls-icon" style="opacity: 0.6">
+								<img src="images/play-page/star-icon1.png">
+								<img src="images/play-page/downloading1.png">
+								<img src="images/play-page/share1.png">
+							</div>
+	                    </div>
+	                    
+	                </div> 
+	            </div>
+	            
+        	</div>
+	</div>
+
+	<div id="footer" style="position: absolute; width: 100%; border: none; height: fit-content; padding: 10px 0px; margin-top: 10px">
+        <div class="content-footer">
+            <div class="content-footer-left" itemscope="" itemtype="http://schema.org/Organization" style="display: inline-block; vertical-align: top">
+                <img itemprop="logo" src="images/logo2.png" height="100%" width="100%" alt="Zing MP3 - Đỉnh Cao Âm Nhạc" style=" height: 70px; width: 140px">
+                <p>© 2015 4CONANG Corporation</p>
+                <p>Giấy phép MXH số 314/GP-BTTTT.</p>
+            </div>
+            <div class="content-footer-center"  style="display: inline-block;">
+                <div><a title="Giới thiệu" rel="nofollow" href="https://mp3.zing.vn/huong-dan/about">Giới thiệu</a></div>
+                <div><a title="Điều khoản" rel="nofollow" href="https://mp3.zing.vn/huong-dan/terms">Điều khoản</a></div>
+                <div><a title="Quảng cáo" rel="nofollow" href="http://ads.zing.vn/" target="_blank">Quảng cáo</a></div>
+                <div><a title="FAQs" rel="nofollow" href="http://v3.mp3.zing.vn/huong-dan/index.html">FAQs</a></div>
+                <div><a title="Copyright" rel="nofollow" href="https://mp3.zing.vn/huong-dan/copyright">Copyright</a></div>
+                <div><a title="MP3 VIP" href="http://mp3.zing.vn/vip">MP3 VIP</a></div>
+                <div><a title="Ứng dụng" href="https://mp3.zing.vn/apps">Ứng dụng</a></div>
+                <div><a title="Góp ý/Báo lỗi" rel="nofollow" href="https://docs.google.com/forms/d/1EHv8aYwV3rqUX3KE4H9IKpawf11cXFt8hr1iuW1pBWA/viewform?c=0&amp;w=1" target="_blank">Góp ý</a></div>
+                <div><a title="APIs" rel="nofollow" href="https://mp3.zing.vn/huong-dan/developer">APIs</a></div>
+                <div><a title="divên hệ" rel="nofollow" href="https://mp3.zing.vn/huong-dan/contact">liên hệ</a></div>
+                <div><a title="APIs" rel="nofollow" href="https://mp3.zing.vn/huong-dan/developer">APIs</a></div>
+                <div><a title="divên hệ" rel="nofollow" href="https://mp3.zing.vn/huong-dan/contact">liên hệ</a></div>
+                <div><a title="divên hệ" rel="nofollow" href="https://mp3.zing.vn/huong-dan/contact">liên hệ</a></div>
+                <div><a title="APIs" rel="nofollow" href="https://mp3.zing.vn/huong-dan/developer">APIs</a></div>
+                <div><a title="divên hệ" rel="nofollow" href="https://mp3.zing.vn/huong-dan/contact">liên hệ</a></div>
+            </div>
+            <div class="content-footer-right"  style="display: inline-block;">
+                
+            </div>
+        </div>
+    </div>
+
+	
+</body>
+</html>

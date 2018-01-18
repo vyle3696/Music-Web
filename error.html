@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>error</title>
+	<script src="uikit/js/jquery.min.js"></script>
+	<style>
+		button{
+			border: 1px solid rgb(255, 255, 255);
+			background-color: transparent;
+			color: rgb(255, 255, 255);
+			margin: 10px auto;
+			padding: 10px;
+			font-weight: bold;
+			border-radius: 11%;
+			cursor: pointer;
+		}
+		button:hover{
+			background-color: #fff;
+			color: #e6036b;
+		}
+	</style>
+</head>
+<body style="color: #fff;text-align: center;background: #e6036b;font-family: cursive;">
+	<p style=" font-size: 1000%;margin: 0px; vertical-align: middle;">404</p>
+	<p style=" font-size: 300%;    margin: 0px;">Category not found</p>
+	<p>Please try one of following pages</p>
+	<button >HOME PAGE</button>
+	<br>
+	<img src="images/donkey-icon.png" width="350px" height="350px">
+	<script type="text/javascript">
+		$("button").click(function () {
+			location.href = "home.html";
+		});
+	</script>
+</body>
+</html>

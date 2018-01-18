@@ -1,0 +1,204 @@
+#main-content {
+    /* background-color: #f19d9d; */
+    width: 85%;
+    height: 100%;
+    margin-top: 10px;
+}
+@font-face {
+    font-family: 'Coiny';
+    src: url('../font/coiny.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mitr';
+    src: url('../font/Mitr-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mitr-ExtraLight';
+    src: url('../font/Mitr-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.img-holder {
+    position: relative;
+    display: inline-block;
+}
+
+.img-holder img {
+    display: block;
+}
+
+.img-holder p {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #070202;
+}
+
+#slider-content {
+    width: 100%;
+    background-color: rgba(248, 248, 247, 0.466);
+    padding: 20px
+}
+
+body {
+    background-image: url("../images/background4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-blend-mode:color-burn;
+    background-color: #027fbdda
+}
+
+.custom {
+    background-color: #014064
+}
+
+.grid-image {
+    width: 100%;
+    background-color: rgba(199, 237, 250, 0.5);
+    padding: 10px;
+    border: 1.5px dashed #8cdbff;
+    box-shadow: 10px 5px 5px rgba(1, 78, 119, 0.603);
+}
+
+.list-media-text>h6,
+p {
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 20px;
+    
+}
+
+.small-text {
+    font-size: 14px;
+    font-style: italic;
+    font-family: Mitr-ExtraLight;
+    text-shadow: 1px 1px 1px rgba(250, 0, 0, 0.904),1px 1px #000000;
+}
+.extralight-text{
+    font-size:14px; 
+    font-family:'Mitr-ExtraLight';
+    text-shadow: 1px 1px 1px rgba(250, 0, 0, 0.904),1px 1px #000000;
+}
+
+hr.hr-style {
+    border-top: 1px solid #fa1f1f;
+    border-bottom: 1px solid rgb(253, 90, 90);
+}
+
+.bang-xep-hang {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+#album-hot {
+    width: 100%;
+    height: 100%;
+    background-color: transparent   ;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#footer {
+    position: absolute;
+    width: 100%;
+    border: none;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 40px;
+    background-image: url('../images/footer-bg.png');
+    /* background-blend-mode: hard-light;*/
+    background-color: rgba(0, 0, 0, 0.664) 
+}
+
+.sm-pad {
+    padding: 5px;
+    
+}
+
+#artist-hot {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    
+}
+
+#reatimeChart {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    background-color: #1722189a;
+}
+
+
+
+h4 {
+    font-family: 'Coiny';
+    text-shadow: 0 0 15px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255),0 0 15px rgb(255, 255, 255);
+    color: #1d0281;
+    background-image: url('../images/blue-glow-line-png-22.png');
+    margin-top:20px
+}
+
+.glow-border {
+    border: 10px solid transparent;
+    border-image: url('../images/border1.png') 30 round;
+}
+#video-hot{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 10px;
+}
+a{
+    color: #ffffff;
+    text-shadow: 0 0 15px rgb(48, 5, 240), 0 0 15px rgb(48, 5, 240),0 0 15px rgb(48, 5, 240),;
+}
+.card-text{
+    text-align: center;
+    margin: 0;
+    color: white;
+    text-shadow:
+    -1px -1px 10px rgb(0, 30, 163),
+    1px -1px 10px rgb(0, 30, 163),
+    -1px 1px 10px rgb(0, 30, 163),
+    1px 1px 10px rgb(0, 30, 163);  
+}
+.shadow{
+    box-shadow: 2px 2px 2px rgba(238, 161, 9, 0.719);
+}
+
+.media>div>h6,p, ul>a{
+    text-shadow: 2px 2px 2px rgba(250, 0, 0, 0.904),2px 2px 2px #000000;
+    color: #ffffff;
+    font-family: 'Mitr';
+}
+.media>img,
+hr{
+    box-shadow: 2px 2px 2px rgba(250, 0, 0, 0.904);
+}
+ul>a:hover{
+    color: white;
+    text-shadow:
+    -1px -1px 10px rgb(0, 30, 163),
+    1px -1px 10px rgb(0, 30, 163),
+    -1px 1px 10px rgb(0, 30, 163),
+    1px 1px 10px rgb(0, 30, 163);  
+}
+.license{
+    all:unset;
+}
