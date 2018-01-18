@@ -7,11 +7,6 @@ $(document).ready(function (e) {
 			pageID: "nav-home",
 		},
 		{
-			pageName: "listen",
-			pageUrl: "play-page.html",
-			pageID: "nav-listen",
-		},
-		{
 			pageName: "album",
 			pageUrl: "album.html",
 			pageID: "nav-album",
@@ -33,7 +28,7 @@ $(document).ready(function (e) {
 		},
 		{
 			pageName: "contact",
-			pageUrl: "home.html",
+			pageUrl: "error.html",
 			pageID: "nav-contact",
 		},
 		]
